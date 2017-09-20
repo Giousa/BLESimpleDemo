@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="发送" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt_send"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bt_send"
+        android:background="@drawable/box_one"
+        android:paddingLeft="10dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bt_send"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="蓝牙名称：" />
+
+    <EditText
+        android:id="@+id/et_ble_names"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_content"
+        android:layout_toRightOf="@+id/tv_name"
+        android:background="@drawable/box_one"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="同时输入多个,以英文逗号隔开 "
+        android:text="FSRKB_BT-001"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_ble_names"
+        android:text="确定" />
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/box_one"
+        android:layout_below="@+id/bt_confirm"
+        
+        >
+         <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:text=""
+        />
+         <TextView
+        android:id="@+id/tv_log_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_log"
+        android:textSize="20dp"
+        android:text=""
+        />
+    </RelativeLayout>
+
+
+   
+
+    <Button
+        android:id="@+id/bt_clean"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/bt_confirm"
+        android:layout_alignBottom="@+id/bt_confirm"
+        android:layout_toLeftOf="@+id/bt_confirm"
+        android:text="清屏" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhangmengmeng/Documents/CodeResource/TW/Fsrk_ble_sdk/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/zhangmengmeng/Documents/CodeResource/TW/Fsrk_ble_sdk/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_7544ed6a76ea9d2e361a1e386ff6cffdabe5c86a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangmengmeng/Documents/CodeResource/TW/Fsrk_ble_sdk/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/zhangmengmeng/Documents/CodeResource/TW/Fsrk_ble_sdk/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_dc872bc5bc91c62e0a9acf8e368eb5bd67dbfea7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhangmengmeng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/zhangmengmeng/Documents/CodeResource/TW/Fsrk_ble_sdk/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_3e918b2e914278c7af54b59b068bfbc1b00b72bc.jar" />
+    </item>
+
+</items>
